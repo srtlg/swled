@@ -2,3 +2,10 @@
 directory scheme according to CERN's hdl-make
 
 http://hdlmake.readthedocs.io/en/master/#overview
+
+
+to generate the bitstream for the Nexys2-1200 board:
+
+	cd syn/nexys2-1200_ise/verilog
+	cern-hdlmake
+	make
