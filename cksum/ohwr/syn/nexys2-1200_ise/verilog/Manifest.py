@@ -2,6 +2,7 @@ target = "xilinx"
 action = "synthesis"
 
 syn_device = "xc3s1200e"
+syn_family = "Spartan3E"
 syn_grade = "-4"
 syn_package = "fg320"
 syn_top = "top_level"
